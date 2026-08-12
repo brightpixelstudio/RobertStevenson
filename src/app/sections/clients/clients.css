@@ -1,0 +1,12 @@
+.clientsbackground {
+  background: url(../../../../public/images/home/clients_bg.png) scroll center center;
+  background-size: cover;
+  min-height: 500px;
+  width: 100%;
+}
+
+hr{
+  width: 30%;
+  border-color: #fff;
+  margin: auto;
+}

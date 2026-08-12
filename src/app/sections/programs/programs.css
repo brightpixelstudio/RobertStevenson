@@ -1,0 +1,33 @@
+.programsbackground {
+  background: url(../../../../public/images/common/programbackground.jpg) repeat;
+  padding-top: 40px;
+  padding-bottom: 40px
+}
+
+.programsbackground hr {
+  border-color: #999;
+}
+
+.programsbackground .line {
+  border-bottom: solid 1px #adb2b4;
+}
+
+.programsbackground .single_program {
+  text-align: left;
+  padding-top: 24px;
+}
+
+.programsbackground .single_program img {
+  width: 50px;
+}
+
+.programsbackground .single_program h3 {
+  color: #16616f;
+  font-weight: 700;
+}
+
+.programsbackground .single_program p {
+  font-size: 23px;
+  font-style: italic;
+  line-height: 30px;
+}

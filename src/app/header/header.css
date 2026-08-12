@@ -1,0 +1,128 @@
+.topbackground {
+  background: url(../../../public/images/home/topbackground.jpg) scroll center center;
+  background-size: cover;
+  min-height: 750px;
+  width: 100%;
+}
+
+#facebook {
+  background: url(../../../public/images/common/facebook.png) no-repeat; 
+  background-position: center;
+  width: 40px;
+  height: 38px;
+  margin-top: 28px;
+  margin-right: 6px;
+  border: 1px solid #fff;
+}
+
+#twitter {
+  background: url(../../../public/images/common/twitter.png) no-repeat;
+  background-position: center;
+  width: 40px;
+  height: 38px;
+  margin-top: 28px;
+  margin-right: 3px;
+  border: 1px solid #fff;
+}
+
+#playbutton {
+  background: url(../../../public/images/home/playbutton.png) no-repeat;
+  width: 60px;
+  height: 60px;
+}
+
+.topbackground .navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 5px
+}
+
+.logo h1 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.logo p {
+  color: #fff;
+  font-weight: 200;
+  font-size: 27px;
+  color: #dddddd;
+}
+
+ul.menu {
+  padding: 30px;
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+
+ul.menu li {
+  display: inline-block;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+ul.menu li a.active,
+ul.menu li a:hover {
+  color: #64c8fd;
+}
+
+ul.menu li a {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+div.social div {
+  float: left;
+  padding-top: 25px;
+}
+
+div.social div img {
+  padding: 10px;
+  border: 1px solid #fff;
+  max-height: 35px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+div.social div img:hover {
+  border: 1px solid #64c8fd
+}
+
+.video-container{
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.video-container h1 {
+  border-bottom: 1px solid #8b8b8b;
+  color: #fff;
+  font-size: 68px;
+  font-weight: 700;
+}
+
+.video-container h2 {
+  color: #fff;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  text-transform: none
+}
+
+.video-container p {
+  color: #fff;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+.video-container h1 {
+    font-size: 40px;
+  }}

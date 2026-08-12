@@ -1,0 +1,32 @@
+.testimonialsbackground {
+  background: url(../../../../public/images/home/testimonial_bg.png) scroll center center;
+  background-size: cover;
+  min-height: 565px;
+  width: 100%;
+}
+
+.testimonialsbackground img {
+  border: 1px solid #96a4b6;
+  padding: 20px;
+}
+
+.testimonialsbackground h1 {
+  color: #14abb4;
+  font-weight: 600;
+  padding: 15px 0px
+}
+
+.testimonialsbackground p {
+  color: #fff;
+  font-size: 25px;
+  font-style: italic;
+  line-height: 30px;
+}
+
+#quote {
+  text-align: center;
+  background: url(../../../../public/images/home/testimonial_quote.png) no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100%;
+}

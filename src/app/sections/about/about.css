@@ -1,0 +1,33 @@
+.about_content .content p {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.about_content .content span {
+  font-size: 28px;
+}
+
+.about_sidebar {
+  text-align: center;
+}
+
+.about_sidebar .content_sidebar_top {
+  background-color: #eee;
+  padding: 10px;
+}
+
+.about_sidebar .content_sidebar_top h3 {
+  text-transform: none
+}
+
+.about_sidebar .content_sidebar_bottom {
+  background-color: #143a5e;
+  padding: 10px;
+}
+
+.about_sidebar .content_sidebar_bottom p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+}

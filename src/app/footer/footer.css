@@ -1,0 +1,141 @@
+.footerbackground {
+  background-color: #222222;
+  padding: 40px 0px;
+  height: 450px;
+}
+
+.footerbackground h2 {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.footerbackground h2 span {
+  color: #14abb4;
+  font-style: italic
+}
+
+.footerbackground a {
+  color: #14abb4;
+  font-style: italic
+}
+
+.blogo {
+  text-align: left;
+}
+
+.blogo img {
+  padding-bottom: 20px;
+}
+
+.blogo p {
+  color: #989898;
+  font-size: 22px;
+  font-style: italic;
+  line-height: 26px;
+}
+
+.blogo hr {
+  border-top: 1px solid #555;
+}
+
+.blogo h3 {
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 0px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.social img {
+  padding-bottom: 10px;
+}
+
+.twitter h2 {
+  padding: 0px;
+}
+
+.single_tweets {
+  border-bottom: 1px solid #464646;
+  padding: 16px 0 5px 0px;
+}
+
+.single_tweets:last-child {
+  border: none;
+}
+
+.single_tweets p {
+  color: #cdcdcd;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  margin-top: 0;
+}
+
+.single_tweets a {
+  text-decoration: none;
+  color: #e6e6e6;
+  font-style: normal;
+}
+
+.bottomfooter {
+  background-color: #000;
+  text-align: center;
+  padding: 30px 0px;
+  font-size: 16px;
+  color: #494949
+}
+.social{
+  height: 50px;
+  margin-bottom: 10px;
+}
+.twitterfeed{
+  background: url(../../../public/images/common/tweets_icon.png) no-repeat;
+  height: 50px;
+  width: 50px;
+}
+
+#logo{
+  background: url(../../../public/images/common/footer_widget_logo.png) no-repeat;
+  height: 100px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+#twitter{
+  background: url(../../../public/images/common/footer_social_twitter.png) no-repeat;
+}
+#wordpress {
+  background: url(../../../public/images/common/footer_social_wordpress.png) no-repeat;
+}
+#flash {
+    background: url(../../../public/images/common/footer_social_flash.png) no-repeat;
+}
+#youtube {
+    background: url(../../../public/images/common/footer_social_youtube.png) no-repeat;
+}
+#book {
+    background: url(../../../public/images/common/footer_social_book.png) no-repeat;
+}
+
+.bottomfooter {
+  background-color: #000;
+  text-align: center;
+  padding: 30px 0px;
+  font-size: 16px;
+  color: #494949
+}
+
+@media screen and (max-width: 768px) {
+  .video-container h1 {
+    font-size: 40px;
+  }
+  .footerbackground {
+    background-color: #222222;
+    height: 1100px;
+  }
+
+  .blogo h3 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    padding-bottom: 10px;
+  }
+}

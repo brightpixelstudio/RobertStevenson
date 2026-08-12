@@ -1,0 +1,26 @@
+.newsletterbackground {
+  background: url(../../../../public/images/home/email_area_bg.png) scroll center center;
+  background-size: cover;
+  min-height: 326px;
+  width: 100%;
+  padding: 40px 0px;
+}
+
+.newsletterbackground h2 {
+  color: #fff;
+  font-weight: 600;
+  padding: 15px 0px;
+  font-size: 32px;
+}
+
+.newsletterbackground h2 span {
+  color: #14abb4;
+  font-style: italic
+}
+
+.newsletterbackground p {
+  color: #fff;
+  font-size: 25px;
+  font-style: italic;
+  line-height: 30px;
+}
